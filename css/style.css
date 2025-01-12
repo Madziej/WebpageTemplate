@@ -1,0 +1,162 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+	font-size: 1.6rem;
+	background-color: #333;
+}
+
+.hero-shadow {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+}
+
+.hero-shadow2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: -1;
+}
+
+
+
+
+
+
+/*------*/
+
+.home {
+
+	position: relative;
+	height: 60rem;
+	z-index: 0;
+	background-image: url('../img/top-hero.jpg');
+	background-size: cover;
+	background-position: center;
+	max-height: 50vh;
+}
+
+.home .welcome-text {
+	font-size: 2.2rem;
+}
+
+@media (min-width: 992px){
+
+	.home{
+
+		background-position: 20rem 25%;
+	}
+}
+
+
+.position-lg-absolute{
+	position: static;
+}
+@media(min-width:992px){
+
+.position-lg-absolute{
+	position: absolute;
+}
+}
+
+
+
+
+
+
+/*-----*/
+
+.navbar-brand{
+
+	font-size: 3rem;
+}
+
+.navbar{
+	font-size: 3rem;
+}
+
+
+
+
+
+/*------*/
+
+
+
+.about h3{
+
+	font-size: 3rem;
+	font-weight: bold;
+}		
+.about .btn{
+	font-size: 1.5rem;
+}
+
+.about .img-container img{
+	border: solid white 2px;
+}
+
+
+
+/*-----*/
+
+.carousel .carousel-slide{
+
+	height: 600px;
+
+}
+
+
+/*-----*/
+
+.projects a{
+	font-size: 2rem;
+}
+
+.projects .btn:hover{
+	background-color: blue;
+}
+
+.projects .card:hover{
+	font-size: 2.1rem;
+.btn{
+background-color: blue;
+	}
+}
+
+
+
+/*----*/
+
+.paniKrysia{
+	position: relative;
+	background-size: cover;
+	background-image: url('../img/Pani\ Krysia.jpg');
+	background-position: 0 40%;
+	z-index: 0;
+}
+
+.paniKrysia img{
+	opacity: 0.6;
+}
+
+.paniKrysia h3{
+	opacity: 1.0;
+}
